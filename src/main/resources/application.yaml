@@ -1,0 +1,17 @@
+telegrambot:
+  userName: "@CryptTGBot_test"
+  botToken: 1731265488:AAFDjUSk3vu5SFfgdfh556gOOFmuml7SqEjwrmnEF5Ak
+  webHookPath: https://f5d6beeb7b93.ngrok.io
+  adminId: 39376213
+
+hibernate:
+  dialect: org.hibernate.dialect.PostgreSQLDialect
+  connection:
+    driver_class: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:3254/tgbot
+    username: postgres
+    password: postgres
+    format_sql: true
+  ddl-auto: validate
+
+init-currency: true
